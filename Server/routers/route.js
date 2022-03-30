@@ -1,0 +1,20 @@
+const express = require('express')
+const router = express.Router()
+const userRoutes = require('./user')
+const categoryRoutes = require('./category')
+const itemRouter = require('./item')
+const itemClientRouter = require('./item-client')
+const ingredientRouter = require('./ingredient')
+const userController = require ('../controllers/User')
+const {authentication} = require ('../middleware/auth')
+
+router.post('/register', userController.register)
+router.post('/login', userController.login)
+router.use('/items-client', itemClientRouter)
+router.use(authentication)
+router.use('/users', userRoutes)
+router.use('/categories', categoryRoutes)
+router.use('/items', itemRouter)
+router.use('/ingredients', ingredientRouter)
+
+module.exports = router

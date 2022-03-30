@@ -1,0 +1,104 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "role": "admin",
+      "phoneNumber": "087745678986",
+      "address": "Mataram"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "email": "user@gmail.com",
+      "password": "user",
+      "role": "user",
+      "phoneNumber": "087745678900",
+      "address": "Mataram"
+    }
+  ],
+  "Categories": [
+    {
+      "id": 1,
+      "name": "Main Course"
+    },
+    {
+      "id": 2,
+      "name": "Dessert"
+    },
+    {
+      "id": 3,
+      "name": "Beverage"
+    }
+  ],
+  "Items": [
+    {
+      "name": "Wingers-Edit",
+      "description": "Sayap Ayam KFC 3 pieces",
+      "price": 22000,
+      "imgUrl": "https://files.kfcku.com/uploads/media/dummy/food/kfc-web_wingers_l.png",
+      "authorId": 1,
+      "categoryId": 1,
+      "createdAt": "24-01-2022",
+      "updatedAt": "25-01-2022",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Coca-Cola",
+      "description": "Minuman Coca-Cola KFC",
+      "price": 15000,
+      "imgUrl": "https://image.cermati.com/q_70/uy0bkupnfjtkvzookmdp.webp",
+      "authorId": 1,
+      "categoryId": 3,
+      "createdAt": "24-01-2022",
+      "updatedAt": "24-01-2022"
+    },
+    {
+      "id": 3,
+      "name": "Ice Cream Sundae Coklat",
+      "description": "Ice cream KFC dengan Coklat Jam",
+      "price": 10000,
+      "imgUrl": "https://www.mcdonalds.com.mt/wp-content/uploads/2018/05/chocolate-sundae.jpg",
+      "authorId": 1,
+      "categoryId": 2,
+      "createdAt": "24-01-2022",
+      "updatedAt": "24-01-2022"
+    },
+    {
+      "name": "Sphageti Deluxe",
+      "description": "Spagheti KFC",
+      "price": "15000",
+      "imgUrl": "https://files.kfcku.com/uploads/media/dummy/food/kfc-web_spaghettydeluxe_l.png",
+      "authorId": "2",
+      "categoryId": "1",
+      "createdAt": "2022-01-28",
+      "updatedAt": "2022-01-28",
+      "id": 4
+    }
+  ],
+  "Ingredients": [
+    {
+      "id": 1,
+      "itemId": 1,
+      "name": "Chicken Wings"
+    },
+    {
+      "id": 2,
+      "itemId": 2,
+      "name": "Soft Drinks"
+    },
+    {
+      "id": 3,
+      "itemId": 3,
+      "name": "Ice Cream Plan"
+    },
+    {
+      "id": 4,
+      "itemId": 3,
+      "name": "Coklat"
+    }
+  ]
+}
